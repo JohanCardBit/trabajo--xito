@@ -11,18 +11,15 @@ body{
 .box-yellow{
     display: flex;
     align-items: center;
-    /* border: 0.5px solid red; */
     background-color: #FFE801;
     width: 100%;
-    height: 65px;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
 }
 
 .logotipo{
     width: 75px;
-    margin-left: 200px;
-    /* border: 0.2px solid; */
     cursor: pointer;
 
 }
@@ -54,7 +51,7 @@ body{
 }
 
 .menu{
-    font-family: Poppins, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.2px;
@@ -266,7 +263,7 @@ cursor: pointer;
 .panel-main{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    
     
 }
 .panel-uno{
@@ -274,9 +271,9 @@ cursor: pointer;
     gap: 20px;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;  
-    /* border: 2px solid; */
     padding-top: 10px;
     padding-bottom: 10px;
+    flex-wrap: nowrap;
 
     
 }
@@ -285,8 +282,8 @@ cursor: pointer;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 24px;
-    margin-left: 209px;
-    margin-right: 20px;
+    margin-left: 255px;
+    margin-right: 0px;
     font-weight: 500;
     letter-spacing: 0.2px;
     color: #222222; 
@@ -302,6 +299,8 @@ cursor: pointer;
     line-height: 24px;
     font-weight: 500;
     letter-spacing: 0.2px;
+    margin-right: 10px;
+    margin-left: 0px;
     color: #222222;
     text-decoration: none; 
 }
@@ -316,7 +315,7 @@ cursor: pointer;
     gap: 40px;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;
-    width: 80%;
+    width: 1500px;
     background-color: #CCCCCC;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
@@ -330,12 +329,12 @@ cursor: pointer;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 24px;
-    margin-right: 490px;
-    margin-left: 0px;
+    margin-right: 485px;
     font-weight: bolder;
     letter-spacing: 0.2px; 
     color: #222222;
     text-decoration: none;
+
 }
 
 
@@ -407,8 +406,8 @@ cursor: pointer;
 }
 
 .ahorrap{
-    margin-right: 325px;
     margin-left: 0px;
+    margin-right: 245px;
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -428,14 +427,11 @@ cursor: pointer;
 
 
 
-.deslisito{
+
+.promo-uno{
     height: 350px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 40px;
+    
 }
-
-
-
-
-
 
